@@ -25,9 +25,6 @@ namespace OCA\PreviewGenerator\AppInfo;
 
 use OCA\PreviewGenerator\Listeners\PostWriteListener;
 use OCP\AppFramework\App;
-use OCP\AppFramework\IAppContainer;
-use OCP\Files\IRootFolder;
-use OCP\Files\Node;
 use OCP\AppFramework\Bootstrap\IBootContext;
 use OCP\AppFramework\Bootstrap\IBootstrap;
 use OCP\AppFramework\Bootstrap\IRegistrationContext;
@@ -46,5 +43,6 @@ class Application extends App implements IBootstrap {
 	}
 
 	public function boot(IBootContext $context): void {
+
 	}
 }
